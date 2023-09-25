@@ -75,8 +75,8 @@ class _OnBordingScreenState extends State<OnBordingScreen> {
               children: [
                 Padding(
                   padding: const EdgeInsets.only(
-                    right: 17.0,
-                    top: 60,
+                    right: 27.0,
+                    top: 65,
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
@@ -96,7 +96,7 @@ class _OnBordingScreenState extends State<OnBordingScreen> {
                           "skip",
                           style: TextStyle(
                             color: Color(0xff3C58C3),
-                            fontSize: 15,
+                            fontSize: 16,
                             fontWeight: FontWeight.w400,
                           ),
                         ),
@@ -133,7 +133,7 @@ class _OnBordingScreenState extends State<OnBordingScreen> {
                       count: 3,
                       effect: ExpandingDotsEffect(
                         // Work here
-                        expansionFactor: 2,
+                        expansionFactor: 3,
                         offset: 16.0,
                         dotWidth: 8.0,
                         dotHeight: 8.0,

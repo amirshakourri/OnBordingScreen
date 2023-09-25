@@ -10,15 +10,18 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        appBar: AppBar(),
-        backgroundColor: Colors.white,
-        body: Center(
-          child: Text(
-            'Home Screen'
-          ),
+    return Scaffold(
+      appBar: AppBar(
+        iconTheme: IconThemeData(
+          color: Color(0xff3C58C3), //change your color here
         ),
+        automaticallyImplyLeading: true,
+        backgroundColor: Color(0xffF6F7FD),
+        elevation: 0,
+      ),
+      backgroundColor: Color(0xffF6F7FD),
+      body: Center(
+        child: Text('Home Screen'),
       ),
     );
   }

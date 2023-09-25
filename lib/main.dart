@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'onBordingScreen.dart';
 
 void main() {
@@ -12,11 +11,7 @@ class Application extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        splashColor: Colors.transparent,
-        highlightColor: Colors.transparent,
-        hoverColor: Colors.transparent,
-      ),
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: OnBordingScreen(),
       ),
